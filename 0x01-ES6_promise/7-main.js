@@ -20,5 +20,4 @@ const test = async () => {
   console.log(await loadBalancer(promiseUKSlow, promiseFR));
 };
 
-import { test } from '@jest/globals';
 test();
