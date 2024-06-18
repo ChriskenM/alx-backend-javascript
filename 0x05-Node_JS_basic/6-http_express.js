@@ -2,6 +2,10 @@ const express = require('express');
 
 const app = express();
 const PORT = 1245;
+/**
+ *create a small HTTP server using Express module
+ *
+ */
 
 // Route for the root endpoint
 app.get('/', (req, res) => {
