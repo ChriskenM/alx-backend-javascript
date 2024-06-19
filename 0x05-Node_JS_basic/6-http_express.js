@@ -27,9 +27,8 @@ app.use((req, res) => {
 });
 
 // Start the server
-const server = app.listen(PORT, () => {
+app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
 });
 
 module.exports = app;
-
